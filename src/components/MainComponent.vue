@@ -1,5 +1,7 @@
 <template>
-  <main>m</main>
+  <main>
+      <div class="container"></div>
+  </main>
 </template>
 
 <script>
@@ -9,5 +11,8 @@ name:'MainComponent'
 </script>
 
 <style lang="scss" scoped>
-
+main{
+    height: 90px;
+    background-color: black;
+}
 </style>

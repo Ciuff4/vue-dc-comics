@@ -38,15 +38,15 @@ name:'HeaderComponent'
         ul{
             display: flex;
             justify-content: space-around;
+            align-items: center;
             list-style: none;
             li{
+                display: flex;
+                align-items: center;
                 a{
-                    display: inline-block;
-                    text-decoration: none;
                     font-weight: bold;
                     color:#434344;
                     padding: 0 5px;
-                    height: 80px;
                     &:hover{
                         color: #0E88F9;
                     };
